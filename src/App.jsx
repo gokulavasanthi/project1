@@ -1,5 +1,6 @@
-import react, { useState } from "react";
-import "./App.css"
+import React, { useState } from "react";
+import "./App.css";
+
 // import CounterComp from "./component/CounterComp"
 // import ExampleTwoComp from "./component/ExampleTwoComp";
 // import NameChangeComp from "./component/NameChangeComp";
@@ -10,7 +11,7 @@ import "./App.css"
 // import LifeCycleFunComp from "./component/LifeCycleFunComp";
 // import FormReact from "./component/FormReact";
 // import ReactFormHook from "./component/ReactFormHook";
-// import TodoList from "./component/TodoList";
+import TodoList from "./component/TodoList";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -115,9 +116,10 @@ function App() {
 {/* <FormReact/> */}
 
 {/* <ReactFormHook/> */}
+<TodoList/>
 
 
-<h2>apicall</h2>
+{/* <h2>apicall</h2> */}
  
  
        {/* <PropsEg  data={data} a = {name} b={age} dob={"17-07-2003"}/> */}
